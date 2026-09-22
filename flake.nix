@@ -20,6 +20,11 @@
         path = ./templates/python-uv;
         description = "Starter python + uv template";
       };
+
+      typst = {
+        path = ./templates/typst;
+        description = "Starter typst template";
+      };
     };
 
     formatter.x86_64-linux = nixpkgs.legacyPackages.x86_64-linux.nixpkgs-fmt;
